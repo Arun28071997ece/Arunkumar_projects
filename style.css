@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family:'Poppins',sans-serif ;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+h4{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+h5{
+    font-size: 1rem;
+    font-weight: 400;
+    color:black;
+}
+h6{
+    color: #d8d8d8;
+}
+button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: antiquewhite;
+    padding:13px 30px;
+    text-transform: uppercase;
+    cursor:pointer; 
+    transition: 0.3s ease;
+}
+button:hover{
+    background-color:rgb(41, 39, 39);
+}
+hr{
+    width:30px;
+    height: 2px;
+    background-color: red;
+
+
+}
+
+
+.navbar{
+    font-size: 16px;
+    top: 0;
+    left: 0;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 20px;
+    color: black;
+    transition: 0.3s ease;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar i.active{
+    color:coral;
+}
+.navbar i{
+    font-size: 1.2rem;
+    padding: 0 10px;
+    cursor:pointer;
+    font-weight:500;
+    transition: 0.3s ease;
+
+}
+
+#home span{
+    color: rgb(224, 22, 22);
+}
+#home{
+    background-image: url("images/boy-984293_1920.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top 60px ;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content:center;
+    align-items: flex-start;
+}
+.home1{
+    background-image: url("images/background.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top 100px ;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content:center;
+    align-items: flex-start;
+}
+.home11{
+    background-image: url("images/.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top 60px ;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+/*#navbarSupportedContent > ul{
+    margin: 1rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+
+}
+#navbarSupportedContent>ul>li:nth-child(n)>a{
+    padding:10px 0;
+}*/
+
+
+.product{
+    cursor:pointer;
+    margin-bottom: 2rem;
+
+}
+.product img{
+    transition: 0.3s all;
+
+}
+
+.product:hover img{
+    opacity: 0.7;
+    
+}
+ .product .buy-btn{
+     background-color: #fb774b;
+     transform: translateY(20px);
+     opacity:0;
+     transition:0.3s all;
+ }
+ .product:hover .buy-btn{
+    transform: translateY(0);
+    opacity:1;
+    }
+
+    #banner{
+        background-image: url("images/michael-hystead-uqKarlJBlCU-unsplash.jpg");
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: top 60px center ;
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    }
+    #banner2{
+        background-image: url("images/back2.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: top 60px center ;
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    }
+
+    #randy{
+        color: antiquewhite; }
+    #randy:hover{
+        color: rgb(14, 13, 13);
+        opacity: 1;
+    }    
+
+    footer{
+        background-color:#222222;
+    }
+    footer h5{
+        color:#d8d8d8;
+        font-weight: 700;
+        font-size: 1.2rem;
+     }
+     footer li{
+         padding-bottom: 4px;
+     }
+     footer li a{
+        font-size: 0.8rem;
+        color: #999;
+    }
+    footer li a:hover{
+        color:#d8d8d8;
+    } 
+    footer p{
+        color: #999;
+        font-size: 0.8rem;
+     }
+     html{
+         color: #222222;
+     }
+    
+/* shop page*/
+section #page{
+    background-color: bisque;
+}
+.wholepage{
+    background-color: bisque;
+}
